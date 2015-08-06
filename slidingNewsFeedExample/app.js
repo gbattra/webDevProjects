@@ -5,11 +5,11 @@ var main = function() {
   });
 
   $(document).keypress(function(event) {
-    if(event.which === 111) {
-      $('.description').hide();
+    if (event.which === 111) {
+          $('.current').children('.description').slideToggle();
+      };
+    });
 
-      $('.current').children('.description').show();
-    }
 
     else if(event.which === 110) {
       var currentArticle = $('.current');
@@ -17,6 +17,8 @@ var main = function() {
       
       currentArticle.removeClass('current');
       nextArticle.addClass('current');
+
+      $('.current').children('.description').slideToggle();
     }
   });
 }
