@@ -1,11 +1,7 @@
 var main = function() {
-  $('.article').click(function() {
-    $('.article').removeClass('current');
-    $('.article').addClass('notCurrent');
-    $(this).removeClass('notCurrent');
-    $(this).addClass('current');
-    $('.notCurrent').children('.description').slideUp();
-    $(this).children('.description').slideToggle();
+  $('.article').removeClass('current');
+        $(this).addClass('current');
+        $(this).children('.description').slideToggle();
   });
 
   $(document).keypress(function(event) {
