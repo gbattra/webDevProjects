@@ -18,6 +18,7 @@ var main = function() {
       currentArticle.removeClass('current');
       nextArticle.addClass('current');
 
+      $('.article').children('.description').slideUp();
       $('.current').children('.description').slideToggle();
     }
   });
