@@ -1,0 +1,33 @@
+<!--equisolve project html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>		
+	<title>Equisolve Project</title>
+	<!--src for AngularJS library--> 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+</head>
+
+<body ng-app="EquisolveApp"> 
+	<div ng-controller="MainController"> 
+		<div ng-repeat="news in newsData">
+			<news-info info="news"></news-info>
+		</div>
+	</div>
+
+	<!-- Angular App-->
+    <script type="text/javascript" src="app.js"></script>
+
+    <!-- Controllers -->
+    <script type="text/javascript" src="MainController.js"></script>
+
+    <!-- Services -->
+    <script type="text/javascript" src="getNews.js"></script>
+
+    <!-- Directives -->
+    <script type="text/javascript" src="newsInfo.js"></script>
+</body>
+
+
+</html>
