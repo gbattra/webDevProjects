@@ -1,0 +1,274 @@
+/* CSS */
+
+.backToTop {
+	width:60px;
+	height: 60px;
+	padding: 10px 10px 10px 10px;
+	margin-left: 20px;
+	margin-top: 475px;
+	margin-right: 10px;
+	background-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	position: fixed;
+	background-image: url("http://i.imgur.com/L9IRc5s.jpg");
+	background-size: contain;
+	opacity: .5;
+}
+
+.nav {
+	background-color: white;
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+}
+
+.nav ul {
+	margin-top: 15px;
+}
+.nav li {
+	width: 0px;
+	color:#5a5a5a;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 65px 10px 0px;
+	display: inline;
+	color: gray;
+	opacity: .7;
+	font-family: "Arial-Black", sans-serif;
+}
+
+.nav li a {
+	text-decoration: none;
+}
+
+.jumbotron {
+	background-image: url("http://i.imgur.com/zfNSHAq.png");
+	background-repeat: no-repeat;
+	height: 345px;
+	width: 1000px;
+	margin: auto;
+	opacity: .9;
+	border-radius:20px;
+}
+
+#aboutSection {
+	background-color:rgba(66,85,178, .9); 
+	border-radius:10px; 
+	height:70px; 
+	margin-top:50px;
+}
+
+#aboutContent {
+	bottom-margin:0px;
+}
+
+#name h1 {
+	text-transform: uppercase;
+	position: absolute;
+	width: 500px;
+	color: rgba(277,277,277, 1);
+	font-size: 60px;
+	padding: 240px 0px 0px 0px;
+	margin: 0px 0px 10px -2px;
+	font-family: "Arial-Black", sans-serif;
+}
+
+#tagline p{
+	color: rgba(277,277,277, 1);
+	text-align: left;
+	float: bottom;
+	font-size: 21px;
+	font-family: "Arial", sans-serif;
+	width: 500px;
+	padding: 220px 0px 0px 4px;
+
+}
+
+.contactDiv {
+	margin: 35px 0px 30px 0px;
+	color: black;
+	width: 1000px;
+	background-color: white;
+	position: absolute;
+
+}
+
+#contact {
+	color:rgba(0,0,0, .75); 
+	padding-right:0px;
+}
+
+.contact {
+	margin-top: 30px;
+	color: rgba(0,0,0, .7);
+	display: inline;
+	font-size: 18px;
+	font-family: "Helvetica-Light", sans-serif;
+}
+
+.spacer {
+	height: 20px;
+	width: 100%;
+	color: rgba(277,277,277, .0);
+}
+
+.subSection {
+	opacity: .7;
+	width: 1000px;
+	text-align: center;
+	padding-top: 5px;
+	margin:auto;
+	clear:both;
+	margin-bottom: 10px;
+}
+
+.subSectionHeader {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Arial-Black", sans-serif;
+	color: rgba(0,0,0, .6);
+}
+
+.subSectionContent {
+	background-color: white;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 1000px;
+	font-family: "Helvetica-Light", sans-serif;
+	font-size: 18px;
+	padding: 10px 10px 2px 15px;
+	text-align: left;
+}
+
+.subSectionColumnLarge {
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 50px;
+	height: 270px;
+	font-family: "Helvetica-Light", sans-serif;
+	display: inline-block;
+	width: 425px;
+	font-size: 18px;
+	padding: 20px 15px 2px 20px;
+	text-align: center;
+	float: left;
+}
+
+#educationSubSection {
+	border-radius:10px; 
+	background-color:rgba(62,147,62, 1);
+	height:70px;
+}
+
+#educationHeaderText {
+	font-family:'Arial-Black', sans-serif; 
+}
+
+#educationContent {
+	clear:all;
+	width:1000px; 
+	margin:auto;
+}
+
+#educationTagline {
+	font-style:italic; 
+	color:rgba(0,0,0,.5); 
+	font-family:'Helvetica-Light', sans-serif; 
+	font-size:14px;
+}
+
+#skillsSection {
+	height:70px;
+	background-color:rgba(175,55,55, 1); 
+	border-radius:10px; 
+}
+
+#skillsContent {
+	width:1000px;
+	margin:auto; 
+	margin-top:20px;
+}
+
+.coursesList {
+	float: left;
+	display: inline-block;
+	padding-left: 25px;
+	padding-right: 55px;
+}
+.coursesList ul li {
+	text-align: left;
+}
+
+#contactSection {
+	background-color: rgba(216,216,216,.5);;
+	clear: both;
+	text-align: center;
+	padding-top: 5px;
+	margin:auto;
+	width:100%; 
+	height:150px;
+}
+
+#portfolioSquare {
+	background-color:white; 
+	border-radius:10px; 
+	border-color:rgba(118,66,178, .7);
+	border-width: 1px;
+	border-style: solid;
+	padding-bottom:10px;
+
+}
+
+#portfolioSection {
+	height:70px;
+	background-color:rgba(118,66,178, 1); 
+	border-radius:10px; 
+	margin-bottom:20px;
+}
+
+#portfolioContent {
+	background-color:white; 
+	border-radius:10px; 
+	margin-bottom:20px;
+}
+
+#portfolioText {
+	style="font-size:16px;
+}
+
+.thumbnail {
+	border-width:0px;
+}
+
+.portfolioSquareTitle {
+	font-size:24px; 
+	font-family:'Arial-Black', sans-serif; 
+	color:rgba(118,66,178, .7); 
+	padding-top:10px
+}
+
+
+.subContent {
+	width: 1000px;
+	text-align: center;
+	padding-top: 5px;
+	margin:auto;
+	clear:both;
+	margin-bottom: 10px;
+}
+
+#contactHeaderText {
+	font-size:20px;
+	font-family:Helvetica-Light, sans-serif;
+}
+
+#contactText {
+	font-family:Helvetica-Light;
+	font-size:20px;
+}
